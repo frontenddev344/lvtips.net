@@ -1,0 +1,293 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* global css start here */
+html{
+    font-size: 16px;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Archivo", sans-serif;
+}
+
+ul {
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    font-family: "Archivo", sans-serif;
+}
+
+.container {
+    max-width: 1320px;
+    margin: 0 auto;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+img {
+    width: 100%;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #000;
+    opacity: 0.4;
+}
+
+.pt-50 {
+    padding-top: 50px ;
+}
+.pb-50 {
+    padding-bottom: 50px;
+}
+.ptb-50 {
+    padding: 50px 0;
+}
+.pb-70 {
+    padding-bottom: 70px;
+}
+.ptb-70 {
+    padding: 70px 0;
+}
+/* global css end here */
+
+
+.navbar input[type="checkbox"],
+.navbar .hamburger-lines{
+    display: none;
+}
+
+
+
+.navbar{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    position: fixed;
+    width: 100%;
+    background: #fff;
+    color: #000;
+    z-index: 100;
+}
+.logo img {
+    max-width: 150px;
+}
+
+
+.menu-items{
+    order: 2;
+    display: flex;
+}
+.logo{
+    order: 1;
+    margin-bottom: 0;
+    line-height: normal;
+}
+
+.menu-items li{
+    list-style: none;
+    line-height: normal;
+    margin-left: 1.5rem;
+}
+
+.navbar a{
+    color: #000;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s ease-in-out;
+    font-size: 18px;
+}
+
+.navbar a:hover{
+    color: #16abd3;
+}
+
+/* banner section css start */
+.site-banner{
+    background-image: url(../images/hero-banner.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+    position: relative;
+}
+.banner-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    height: 100%;
+    width: 100%;
+    padding-top: 70px;
+}
+.banner-text h1 {
+    color: #fff;
+    text-align: center;
+    font-size: 50px;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 5px;
+    line-height: 1.1;
+}
+.banner-text p {
+    color: #fff;
+    text-align: center;
+    font-size: 22px;
+    margin-bottom: 0;
+}
+/* banner section end */
+
+/* tips section css start */
+.tips-text h3 {
+    font-size: 30px;
+    font-weight: 700;
+    color: #000;
+    margin-bottom: 10px;
+}
+.tips-text p {
+    font-size: 18px;
+    color: #1f1f1f;
+}
+.tips-text {
+    padding: 100px 30px;
+    border: 8px solid;
+    border-left: none;
+}
+.tips-img {
+    height: 100%;
+}
+.tips-img img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+/* tips section css end */
+/* link card section css start */
+.link-wrap{
+    background-image: url(../images/hero-banner.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    margin-bottom: 25px;
+}
+.link-wrap a {
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+.link-wrap a::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #000;
+    opacity: 0.4;
+}
+.small-wrap{
+    height: 300px;
+}
+.link-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+.link-text h4 {
+    font-size: 28px;
+    color: #fff;
+    font-weight: 700;
+    margin-bottom: 0;
+    line-height: 1.1;
+}
+/* link card section css end */
+
+/* tranding section css start */
+.site-heading h2 {
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 0;
+    font-weight: 700;
+    color: #000;
+}
+.trading-box {
+    display: flex;
+    /* margin-top: 30px; */
+}
+.tranding-left, .tranding-right {
+    width: 50%;
+}
+.tranding-text {
+    padding: 50px 25px ;
+    background-color: #e0f8ff;
+}
+.tranding-text h4 {
+    font-size: 25px;
+    font-weight: 700;
+    color: #000;
+    margin-bottom: 10px;
+}
+.tranding-text p {
+    font-size: 16px;
+    color: #1f1f1f;
+    margin-bottom: 10px;
+}
+.learn-more a {
+    display: inline-block;
+    padding: 10px 30px;
+    background: #16abd3;
+    border: 1px solid #16abd3;
+    font-size: 16px;
+    color: #fff;
+    margin-top: 10px;
+}
+.tranding-img{
+    height: 100%;
+}
+.tranding-img img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.tranding-wrap {
+    padding: 30px 70px;
+
+}
+/* tranding section css end */
+/* about us section css start */
+.about-us .tips-text {
+    border: none;
+}
+.about-us .tips-sec {
+    background: #f2f2f2;
+}
+.about-us.contact-us .tips-sec{
+    background: transparent;
+}
+/* about us section css end */
