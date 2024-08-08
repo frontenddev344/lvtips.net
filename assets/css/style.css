@@ -116,7 +116,7 @@ img {
     text-decoration: none;
     font-weight: 500;
     transition: color 0.3s ease-in-out;
-    font-size: 18px;
+    font-size: 1.125rem;
 }
 
 .navbar a:hover{
@@ -144,7 +144,7 @@ img {
 .banner-text h1 {
     color: #fff;
     text-align: center;
-    font-size: 50px;
+    font-size: 3.125rem;
     text-transform: uppercase;
     font-weight: 700;
     margin-bottom: 5px;
@@ -153,20 +153,20 @@ img {
 .banner-text p {
     color: #fff;
     text-align: center;
-    font-size: 22px;
+    font-size: 1.375rem;
     margin-bottom: 0;
 }
 /* banner section end */
 
 /* tips section css start */
 .tips-text h3 {
-    font-size: 30px;
+    font-size: 1.875rem;
     font-weight: 700;
     color: #000;
     margin-bottom: 10px;
 }
 .tips-text p {
-    font-size: 18px;
+    font-size: 1.125rem;
     color: #1f1f1f;
 }
 .tips-text {
@@ -220,7 +220,7 @@ img {
     position: relative;
 }
 .link-text h4 {
-    font-size: 28px;
+    font-size: 1.75rem;
     color: #fff;
     font-weight: 700;
     margin-bottom: 0;
@@ -230,7 +230,7 @@ img {
 
 /* tranding section css start */
 .site-heading h2 {
-    font-size: 35px;
+    font-size: 2.1875rem;
     text-align: center;
     margin-bottom: 0;
     font-weight: 700;
@@ -248,13 +248,13 @@ img {
     background-color: #e0f8ff;
 }
 .tranding-text h4 {
-    font-size: 25px;
+    font-size: 1.5625rem;
     font-weight: 700;
     color: #000;
     margin-bottom: 10px;
 }
 .tranding-text p {
-    font-size: 16px;
+    font-size: 1rem;
     color: #1f1f1f;
     margin-bottom: 10px;
 }
@@ -263,7 +263,7 @@ img {
     padding: 10px 30px;
     background: #16abd3;
     border: 1px solid #16abd3;
-    font-size: 16px;
+    font-size: 1rem;
     color: #fff;
     margin-top: 10px;
 }
@@ -297,7 +297,7 @@ img {
     max-width: 200px;
 }
 .footer-abt p {
-    font-size: 16px;
+    font-size: 1rem;
     color: #1f1f1f;
     margin-bottom: 0;
 }
@@ -329,11 +329,11 @@ img {
     width: 45px;
     border: 1px solid #16abd3;
     border-radius: 50%;
-    font-size: 20px;
+    font-size: 1.25rem;
     color: #16abd3;
 }
 .gaml-desc p {
-    font-size: 14px;
+    font-size: 0.875rem;
     color: #a6a6a6;
     margin-bottom: 0;
     margin: 10px 0;
@@ -344,12 +344,12 @@ img {
     gap: 15px;
 }
 .footer-links ul li a {
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 500;
     color: #1f1f1f;
 }
 .copy-right p {
-    font-size: 16px;
+    font-size: 1rem;
     color: #1f1f1f;
     margin-bottom: 0;
 }
@@ -368,14 +368,14 @@ img {
     height: 550px;
 }
 .sub-banner .banner-text h1{
-font-size: 40px;
+font-size: 2.5rem;
 }
 .banner-text {
     max-width: 600px;
     margin: 0 auto;
 }
 .top-text p {
-    font-size: 16px;
+    font-size: 1rem;
     text-align: center;
     color: #1f1f1f;
 }
@@ -404,12 +404,12 @@ font-size: 40px;
     line-height: 1.1;
 }
 .hotel-text h4 a {
-    font-size: 25px;
+    font-size: 1.5625rem;
     color: #000;
     line-height: 1.1;
 }
 .hotel-text p {
-    font-size: 16px;
+    font-size: 1rem;
     color: #1f1f1f;
     margin-bottom: 5px;
     padding: 15px 0;
@@ -424,7 +424,7 @@ font-size: 40px;
     border: 1px solid #16abd3;
     color: #16abd3;
     text-transform: uppercase;
-    font-size: 14px;
+    font-size: 0.875rem;
 }
 .hotel-text {
     padding: 15px;
@@ -432,7 +432,7 @@ font-size: 40px;
     width: 85%;
 }
 .img-tag h6 {
-    font-size: 15px;
+    font-size: 0.9375rem;
     font-weight: 600;
     text-align: center;
     margin-bottom: 0;
@@ -458,7 +458,7 @@ font-size: 40px;
   }
   
   details {
-    font-size: 18px;
+    font-size: 1.125rem;
     margin: 0 auto;
     width: 100%;
     position: relative;
@@ -549,7 +549,7 @@ font-size: 40px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 .category h3 {
-    font-size: 25px;
+    font-size: 1.5625rem;
     margin-bottom: 15px;
     text-transform: uppercase;
     font-weight: bold;
@@ -566,7 +566,7 @@ font-size: 40px;
     overflow-y: auto;
 }
 .category ul li {
-    font-size: 14px;
+    font-size: 0.875rem;
     margin-bottom: 10px;
     color: #555;
 }
@@ -583,14 +583,14 @@ font-size: 40px;
     color: white;
     text-transform: uppercase;
     text-decoration: none;
-    font-size: 14px;
+    font-size: 0.875rem;
     border-radius: 4px;
 }
 .view-all:hover {
     background-color: #444;
 }
 .bottom-text p {
-    font-size: 16px;
+    font-size: 1rem;
     color: #1f1f1f;
     margin-bottom: 10px;
 }
@@ -601,7 +601,7 @@ font-size: 40px;
     margin: 10px 0;
 }
 .hotel-text ul li {
-    font-size: 16px;
+    font-size: 1rem;
     color: #1f1f1f;
     padding: 3px 0;
 }
@@ -609,7 +609,7 @@ font-size: 40px;
     color: #000;
 }
 .bottom-text h3 {
-    font-size: 28px;
+    font-size: 1.75rem;
     color: #000;
     margin-bottom: 10px;
     font-weight: 600;
@@ -624,7 +624,7 @@ font-size: 40px;
 padding: 20px 0;
 }
 .privacy-wrap p{
-    font-size: 16px;
+    font-size: 1rem;
     color: #1f1f1f;
     margin-bottom: 10px;
 }
@@ -643,7 +643,7 @@ padding: 20px 0;
     list-style: disc;
 }
 .privacy-wrap ul li{
-    font-size: 16px;
+    font-size: 1rem;
     color: #1f1f1f;
     padding: 2px 0;
 }
@@ -652,6 +652,6 @@ padding: 20px 0;
 }
 .privacy-wrap h4{
     color: #000;
-    font-size: 22px;
+    font-size: 1.375rem;
     margin-bottom: 10px;
 }
