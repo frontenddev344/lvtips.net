@@ -291,3 +291,367 @@ img {
     background: transparent;
 }
 /* about us section css end */
+
+/* footer section css start */
+.footer-logo img {
+    max-width: 200px;
+}
+.footer-abt p {
+    font-size: 16px;
+    color: #1f1f1f;
+    margin-bottom: 0;
+}
+.footer-logo {
+    margin-bottom: 15px;
+}
+.site-footer .row {
+    justify-content: center;
+    text-align: center;
+}
+.site-footer {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 50px 0;
+}
+.social-links {
+    margin: 15px 0;
+}
+.social-links ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+.social-links ul li a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 45px;
+    width: 45px;
+    border: 1px solid #16abd3;
+    border-radius: 50%;
+    font-size: 20px;
+    color: #16abd3;
+}
+.gaml-desc p {
+    font-size: 14px;
+    color: #a6a6a6;
+    margin-bottom: 0;
+    margin: 10px 0;
+}
+.footer-links ul {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.footer-links ul li a {
+    font-size: 16px;
+    font-weight: 500;
+    color: #1f1f1f;
+}
+.copy-right p {
+    font-size: 16px;
+    color: #1f1f1f;
+    margin-bottom: 0;
+}
+.copy-right {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+    padding-top: 15px;
+    border-top: 1px solid #ccc;
+}
+/* footer section css end */
+
+/* sub pages css start */
+.sub-banner{
+    height: 550px;
+}
+.sub-banner .banner-text h1{
+font-size: 40px;
+}
+.banner-text {
+    max-width: 600px;
+    margin: 0 auto;
+}
+.top-text p {
+    font-size: 16px;
+    text-align: center;
+    color: #1f1f1f;
+}
+.top-text {
+    padding: 20px;
+    box-shadow: rgb(121 121 121 / 13%) 0px 0px 13px 5px;
+    border-radius: 8px;
+}
+.hotel-wrap {
+    display: flex;
+    padding: 15px 0;
+    border-bottom: 1px solid #ccc;
+}
+.hotel-img {
+    width: 15%;
+    height: auto;
+    position: relative;
+}
+.hotel-img img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.hotel-text h4 {
+    margin-bottom: 5px;
+    line-height: 1.1;
+}
+.hotel-text h4 a {
+    font-size: 25px;
+    color: #000;
+    line-height: 1.1;
+}
+.hotel-text p {
+    font-size: 16px;
+    color: #1f1f1f;
+    margin-bottom: 5px;
+    padding: 15px 0;
+}
+.hotel-text p strong{
+    color: #000;
+}
+.vist-website a {
+    display: inline-block;
+    padding: 12px 20px;
+    background-color: transparent;
+    border: 1px solid #16abd3;
+    color: #16abd3;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+.hotel-text {
+    padding: 15px;
+    /* padding-left: 15px; */
+    width: 85%;
+}
+.img-tag h6 {
+    font-size: 15px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 0;
+    color: #ffffff;
+    padding: 5px 0;
+}
+.img-tag {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: #000;
+    width: 100%;
+}
+/* sub pages css end */
+
+/* faq section css start */
+
+
+.accordion-container {
+    max-width: 800px;
+    width: 100%;
+    margin: 0 auto;
+  }
+  
+  details {
+    font-size: 18px;
+    margin: 0 auto;
+    width: 100%;
+    position: relative;
+    border-bottom: 1px solid #e4e4e7;
+    transition: all 0.3s ease-in-out;
+  }
+  details:hover {
+    opacity: 1;
+  }
+  
+  summary {
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+    cursor: pointer;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    padding: 1rem 0;
+  }
+  summary:hover {
+    text-decoration: underline;
+  }
+  summary:hover .title {
+    opacity: 1;
+  }
+  summary:hover .accordion-icon {
+    opacity: 1;
+  }
+  
+  .accordion-title {
+    color: #151518;
+    width: 90%;
+    font-weight: 600;
+    transition: all 250ms ease-in-out;
+  }
+  
+  .accordion-icon {
+    opacity: 0.5;
+    pointer-events: none;
+    position: absolute;
+    right: 1rem;
+    transition: all 150ms ease-out;
+  }
+  .accordion-icon svg {
+    width: 1.5rem;
+    height: 1.5rem;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .accordion-content {
+    color: #3c3e47;
+    padding: 0.2rem 0rem 1rem 0rem;
+    font-size:  0.95rem;
+    font-weight: 400;
+    line-height: 1.65;
+  }
+  
+  /** Remove Marker */
+  summary::-webkit-details-marker {
+    display: none;
+  }
+  
+  /** Rotate Icon */
+  details[open] .accordion-icon svg {
+    transform: rotate(180deg);
+  }
+
+
+/* faq section css end */
+
+
+
+/* show section css start */
+.category-wrap{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.category {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    width: 32%;
+    margin: 10px 0;
+    padding: 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.category h3 {
+    font-size: 25px;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    background: #e0f8ff;
+    color: #000;
+    padding: 10px 0;
+}
+.category ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    max-height: 350px;
+    overflow-y: auto;
+}
+.category ul li {
+    font-size: 14px;
+    margin-bottom: 10px;
+    color: #555;
+}
+.category ul li:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+.view-all {
+    display: block;
+    text-align: center;
+    margin-top: 15px;
+    padding: 10px;
+    background-color: #16abd3;
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 14px;
+    border-radius: 4px;
+}
+.view-all:hover {
+    background-color: #444;
+}
+.bottom-text p {
+    font-size: 16px;
+    color: #1f1f1f;
+    margin-bottom: 10px;
+}
+.hotel-main  .site-heading{
+    padding-bottom: 30px;
+}
+.hotel-text ul {
+    margin: 10px 0;
+}
+.hotel-text ul li {
+    font-size: 16px;
+    color: #1f1f1f;
+    padding: 3px 0;
+}
+.hotel-text ul li strong{
+    color: #000;
+}
+.bottom-text h3 {
+    font-size: 28px;
+    color: #000;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+.bottom-text p a {
+    text-decoration: underline;
+    color: #000;
+    font-weight: 700;
+}
+/* show section css start */
+.privacy-wrap {
+padding: 20px 0;
+}
+.privacy-wrap p{
+    font-size: 16px;
+    color: #1f1f1f;
+    margin-bottom: 10px;
+}
+.privacy-wrap p strong{
+    color: #000;
+    
+}
+.privacy-wrap p a, .privacy-wrap ul li a{
+    color: #000;
+    font-weight: 700;
+    text-decoration: underline;
+}
+.privacy-wrap ul{
+    padding-left: 20px;
+    margin: 10px 0;
+    list-style: disc;
+}
+.privacy-wrap ul li{
+    font-size: 16px;
+    color: #1f1f1f;
+    padding: 2px 0;
+}
+.privacy-wrap ul li strong{
+    color: #000;
+}
+.privacy-wrap h4{
+    color: #000;
+    font-size: 22px;
+    margin-bottom: 10px;
+}
