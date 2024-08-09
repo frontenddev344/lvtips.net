@@ -176,11 +176,18 @@ img {
 }
 .tips-img {
     height: 100%;
+    overflow: hidden;
+}
+.tips-img:hover img{
+    transform: scale(1.2);
+
 }
 .tips-img img{
     height: 100%;
     width: 100%;
     object-fit: cover;
+    transition: all 0.3s linear;
+
 }
 /* tips section css end */
 /* link card section css start */
@@ -198,7 +205,7 @@ img {
     width: 100%;
     position: relative;
 }
-.link-wrap a::before{
+.link-wrap a::before, .link-wrap a::after{
     content: '';
     position: absolute;
     top: 0;
@@ -207,6 +214,14 @@ img {
     width: 100%;
     background-color: #000;
     opacity: 0.4;
+    transition: all 0.3s linear;
+
+}
+.link-wrap a::after{
+    height: 0;
+}
+.link-wrap a:hover::after{
+    height: 100%;
 }
 .small-wrap{
     height: 300px;
@@ -218,6 +233,7 @@ img {
     height: 100%;
     width: 100%;
     position: relative;
+    z-index: 9;
 }
 .link-text h4 {
     font-size: 1.75rem;
@@ -267,14 +283,27 @@ img {
     font-size: 1rem;
     color: #fff;
     margin-top: 10px;
+    transition: all 0.3s linear;
+
+}
+.learn-more a:hover{
+    background-color: transparent;
+    color: #263a91;
 }
 .tranding-img{
     height: 100%;
+    overflow: hidden;
+}
+.tranding-img:hover img{
+    transform: scale(1.2);
+
 }
 .tranding-img img{
     height: 100%;
     width: 100%;
     object-fit: cover;
+    transition: all 0.3s linear;
+
 }
 .tranding-wrap {
     padding: 30px 70px;
@@ -332,6 +361,12 @@ img {
     border-radius: 50%;
     font-size: 1.25rem;
     color: #263a91;
+    transition: all 0.3s linear;
+
+}
+.social-links ul li a:hover{
+    background-color: #263a91;
+    color: #fff;
 }
 .gaml-desc p {
     font-size: 0.875rem;
@@ -395,11 +430,18 @@ font-size: 2.5rem;
     width: 15%;
     height: auto;
     position: relative;
+    overflow: hidden;
+}
+.hotel-img:hover img{
+    transform: scale(1.2);
+
 }
 .hotel-img img{
     height: 100%;
     width: 100%;
     object-fit: cover;
+    transition: all 0.3s linear;
+
 }
 .hotel-text h4 {
     margin-bottom: 5px;
@@ -427,6 +469,12 @@ font-size: 2.5rem;
     color: #263a91;
     text-transform: uppercase;
     font-size: 0.875rem;
+    transition: all 0.3s linear;
+
+}
+.vist-website a:hover{
+    background-color: #263a91;
+    color: #fff;
 }
 .hotel-text {
     padding: 15px;
