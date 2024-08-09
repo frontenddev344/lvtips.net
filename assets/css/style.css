@@ -119,8 +119,8 @@ img {
     font-size: 1.125rem;
 }
 
-.navbar a:hover{
-    color: #16abd3;
+.navbar a:hover, .navbar a.active{
+    color: #263a91;
 }
 
 /* banner section css start */
@@ -245,7 +245,8 @@ img {
 }
 .tranding-text {
     padding: 50px 25px ;
-    background-color: #e0f8ff;
+    background-color: #e7eafd8f;
+    height: 100%;
 }
 .tranding-text h4 {
     font-size: 1.5625rem;
@@ -261,8 +262,8 @@ img {
 .learn-more a {
     display: inline-block;
     padding: 10px 30px;
-    background: #16abd3;
-    border: 1px solid #16abd3;
+    background: #263a91;
+    border: 1px solid #263a91;
     font-size: 1rem;
     color: #fff;
     margin-top: 10px;
@@ -327,10 +328,10 @@ img {
     justify-content: center;
     height: 45px;
     width: 45px;
-    border: 1px solid #16abd3;
+    border: 1px solid #263a91;
     border-radius: 50%;
     font-size: 1.25rem;
-    color: #16abd3;
+    color: #263a91;
 }
 .gaml-desc p {
     font-size: 0.875rem;
@@ -373,6 +374,7 @@ font-size: 2.5rem;
 .banner-text {
     max-width: 600px;
     margin: 0 auto;
+    padding: 0 20px;
 }
 .top-text p {
     font-size: 1rem;
@@ -421,8 +423,8 @@ font-size: 2.5rem;
     display: inline-block;
     padding: 12px 20px;
     background-color: transparent;
-    border: 1px solid #16abd3;
-    color: #16abd3;
+    border: 1px solid #263a91;
+    color: #263a91;
     text-transform: uppercase;
     font-size: 0.875rem;
 }
@@ -452,7 +454,7 @@ font-size: 2.5rem;
 
 
 .accordion-container {
-    max-width: 800px;
+    max-width: 1000px;
     width: 100%;
     margin: 0 auto;
   }
@@ -579,7 +581,7 @@ font-size: 2.5rem;
     text-align: center;
     margin-top: 15px;
     padding: 10px;
-    background-color: #16abd3;
+    background-color: #263a91;
     color: white;
     text-transform: uppercase;
     text-decoration: none;

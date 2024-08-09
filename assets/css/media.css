@@ -1,4 +1,29 @@
-
+@media(max-width:1200px){
+    html{
+        font-size: 15px;
+    }
+    .banner-text h1 {
+        font-size: 3rem;
+    }
+    .banner-text p {
+        font-size: 1.275rem;
+    }
+    .site-banner {
+        height: 600px;
+    }
+    .tips-text {
+        padding: 70px 30px;
+    }
+    .link-wrap {
+        height: 350px;
+    }
+    .small-wrap {
+        height: 280px;
+    }
+    .sub-banner {
+        height: 500px;
+    }
+}
 
 
 
@@ -111,7 +136,92 @@
     .navbar-container input[type="checkbox"]:checked ~ .hamburger-lines .line3{
         transform: rotate(-45deg);
     }
+    .hotel-img {
+        width: 30%;
+    }
+    .hotel-text {
+        width: 70%;
+    }
+}
 
+
+@media(max-width:850px){
+    .tips-sec .row {
+        flex-direction: column;
+    }
+    .tips-sec .col-md-6{
+        width: 100%;
+    }
+    .tips-img {
+        height: 350px;
+    }
+    .tips-text {
+        padding: 20px 10px;
+        border: none;
+    }
+    .site-banner {
+        height: 550px;
+    }
+    .link-wrap {
+        height: 350px;
+    }
+    .about-us .row {
+        flex-direction: column-reverse;
+    }
+    .about-us.contact-us .row {
+        flex-direction: column;
+    }
+
+    .tranding-left, .tranding-right {
+        width: 100%;
+    }
+    .trading-box {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 30px;
+    }
+    .tranding-img {
+        height: 300px;
+    }
+    .tranding-text {
+        padding: 20px 20px;
+        background-color: #e0f8ff;
+    }
+    .trading-box-sec{
+        flex-direction: column-reverse;
+    }
+    .tranding-wrap {
+        padding: 30px 50px;
+    }
+    .category h3 {
+        font-size: 1.3625rem;
+    }
+}
+
+
+@media(max-width:767px){
+    .tranding-wrap {
+        padding: 30px 10px 0 10px;
+    }
+    .hotel-img {
+        width: 100%;
+        height: 300px;
+    }
+    .hotel-wrap {
+        padding: 0px 0;
+        flex-direction: column;
+        border: 1px solid #ccc;
+        margin-bottom: 25px;
+    }
+    .hotel-text {
+        width: 100%;
+    }
+    .sub-banner .banner-text h1 {
+        font-size: 2.2rem;
+    }
+    .category {
+        width: 100%;
+    }
 }
 
 @media (max-width: 575px){
@@ -129,5 +239,67 @@
     }
     .logo img {
         max-width: 130px;
+    }
+    .banner-text h1 {
+        font-size: 2.7rem;
+    }
+    .site-banner {
+        height: 500px;
+    }
+    .tips-img {
+        height: 300px;
+    }
+    .link-wrap {
+        height: 300px;
+    }
+    .container {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    .tranding-img {
+        height: 250px;
+    }
+    .footer-logo img {
+        max-width: 180px;
+    }
+    .copy-right {
+        flex-direction: column-reverse;
+        gap: 10px;
+    }
+    .privacy-wrap {
+        padding: 10px 0;
+    }
+}
+
+@media(max-width:375px){
+    .banner-text h1 {
+        font-size: 2.5rem;
+    }
+    .tips-img {
+        height: 250px;
+    }
+    .link-wrap {
+        height: 250px;
+    }
+    .tranding-wrap {
+        padding: 20px 0px 0 0px;
+    }
+    .site-heading h2 {
+        font-size: 2.1075rem;
+    }
+    .tranding-text {
+        padding: 15px 15px;
+    }
+    .site-banner {
+        height: 450px;
+    }
+    .sub-banner .banner-text h1 {
+        font-size: 2.01rem;
+    }
+    .hotel-img {
+        height: 250px;
+    }
+    .top-text {
+        padding: 15px;
     }
 }
