@@ -96,11 +96,11 @@ img {
 
 
 .menu-items{
-    order: 2;
+    order: 0;
     display: flex;
 }
 .logo{
-    order: 1;
+    order: 0;
     margin-bottom: 0;
     line-height: normal;
 }
