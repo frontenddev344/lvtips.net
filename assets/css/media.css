@@ -269,6 +269,9 @@
     .privacy-wrap {
         padding: 10px 0;
     }
+    .slick-slide {
+        padding: 0 5px;
+    }
 }
 
 @media(max-width:375px){

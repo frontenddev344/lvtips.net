@@ -5,7 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
-    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.css">
     <link rel="icon" href="assets/images/fav-icn.png">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/media.css">
@@ -16,17 +17,17 @@
     <header class="site-header">
         <nav class="navbar">
           <div class="navbar-container container">
-              <input type="checkbox" name="" id="">
+              <input type="checkbox" >
               <div class="hamburger-lines">
                   <span class="line line1"></span>
                   <span class="line line2"></span>
                   <span class="line line3"></span>
               </div>
-              <h1 class="logo">
+              <div class="logo">
                 <a href="index.html">
                   <img src="assets/images/logo.png" alt="">
                 </a>
-              </h1>
+              </div>
               <ul class="menu-items">
                   <li><a href="index.html" class="active">Home</a></li>
                   <li><a href="hotels-and-casinos.html">Hotels & Casinos</a></li>
@@ -85,7 +86,7 @@
 
  <!-- link card section start -->
 
- <div class="link-sec">
+ <!-- <div class="link-sec">
    <div class="container">
      <div class="row">
       <div class="col-lg-5 col-md-6">
@@ -145,9 +146,82 @@
 </div>
      </div>
    </div>
- </div>
+ </div> -->
 
  <!-- link card section end -->
+
+
+ <div class="slider-sec">
+    <div class="container">
+      <div class="slide-wrap">
+
+         <div class="slide-box">
+          <div class="link-wrap" style="background-image: url(./assets/images/link-card-1.jpg);">
+            <a href="hotels-and-casinos.html">
+             <div class="link-text">
+                 <h4>
+                   Hotel Deals
+                 </h4>
+             </div>
+            </a>
+         </div>
+         </div>
+         
+         <div class="slide-box">
+          <div class="link-wrap" style="background-image: url(./assets/images/link-card-2.jpg);">
+            <a href="shows.html">
+             <div class="link-text">
+              <h4>
+               Shows
+              </h4>
+             </div>
+            </a>
+         </div>
+         </div>
+
+         
+         <div class="slide-box">
+          <div class="link-wrap " style="background-image: url(./assets/images/link-card-3.cms);">
+            <a href="trips.html">
+             <div class="link-text">
+                 <h4>
+                   Trips
+                 </h4>
+             </div>
+            </a>
+         </div>
+         </div>
+
+         
+         <div class="slide-box">
+          <div class="link-wrap " style="background-image: url(./assets/images/link-card-4.jpg);">
+            <a href="sports-events.html">
+             <div class="link-text">
+               <h4>
+                 Sports Events
+               </h4>
+             </div>
+            </a>
+         </div>
+         </div>
+
+         
+         <div class="slide-box">
+          <div class="link-wrap " style="background-image: url(./assets/images/link-card-5.jpeg);">
+            <a href="weddings.html">
+             <div class="link-text">
+               <h4>
+                 Weddings
+               </h4>
+             </div>
+            </a>
+         </div>
+         </div>
+
+
+      </div>
+    </div>
+ </div>
 
  <!-- Trending section start  -->
   <div class="trending-sec ptb-50">
@@ -250,7 +324,7 @@
             <p>
               Football fans, rejoice! The Las Vegas Raiders are ready to rock the NFL season with
               new head coach Antonio Pierce. And if college football is more your vibe, the UNLV
-              Rebels are spicing things up with a fierce QB competition. It&#39;s all happening—
+              Rebels are spicing things up with a fierce QB competition. It&#39;s all happening
             </p>
             <div class="learn-more">
               <a href="https://www.raiders.com/tickets/" target="_blank">
@@ -444,9 +518,37 @@ any information that is incorrect or outdated, please contact us, and we will do
 <!-- footer section end -->
 
     <script src="assets/js/jquery-3.7.1.min.js"></script>
-    
+    <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
     <script src="assets/js/bootstrap.bundle.min.js"></script>
     <script src="assets/js/custom.js"></script>
- 
+ <script>
+  $('.slide-wrap').slick({
+  centerMode: true,
+  dots:true,
+  centerPadding: '60px',
+  slidesToShow: 3,
+  responsive: [
+    {
+      breakpoint: 850,
+      settings: {
+        arrows: false,
+        centerMode: true,
+        centerPadding: '40px',
+        slidesToShow: 2
+      }
+    },
+    {
+      breakpoint: 480,
+      settings: {
+        arrows: false,
+        centerMode: true,
+        centerPadding: '20px',
+        slidesToShow: 1
+      }
+    }
+  ]
+});
+ </script>
   </body>
 </html>

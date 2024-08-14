@@ -705,3 +705,26 @@ padding: 20px 0;
     font-size: 1.375rem;
     margin-bottom: 10px;
 }
+
+.slider-sec {
+    overflow: hidden;
+}
+
+.slick-slide {
+    padding: 0 10px;
+}
+
+.slick-dots li button:before {
+    font-size: 12px;
+    color: #263a91;
+}
+.slick-dots li.slick-active button:before {
+    opacity: 1;
+    color: #263a91;
+}
+
+.site-heading p {
+    text-align: center;
+    color: #1f1f1f;
+    font-size: 1rem;
+}
