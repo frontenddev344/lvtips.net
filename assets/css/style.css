@@ -423,12 +423,23 @@ font-size: 2.5rem;
 }
 .hotel-wrap {
     display: flex;
-    padding: 15px 0;
+    padding: 0px 0;
+    flex-direction: column;
+    border: 1px solid #ccc;
     border-bottom: 1px solid #ccc;
+    height: 100%;
+    position: relative;
+}
+.vist-website {
+    position: absolute;
+    bottom: 15px;
+}
+.hotel-main .col-md-6 {
+    margin: 12px 0;
 }
 .hotel-img {
-    width: 15%;
-    height: auto;
+    width: 100%;
+    height: 350px;
     position: relative;
     overflow: hidden;
 }
@@ -477,9 +488,9 @@ font-size: 2.5rem;
     color: #fff;
 }
 .hotel-text {
-    padding: 15px;
+    padding: 15px 15px 65px  15px;
     /* padding-left: 15px; */
-    width: 85%;
+    width: 100%;
 }
 .img-tag h6 {
     font-size: 0.9375rem;
@@ -727,4 +738,8 @@ padding: 20px 0;
     text-align: center;
     color: #1f1f1f;
     font-size: 1rem;
+}
+
+.sport-page .hotel-text {
+    padding: 15px 15px 15px  15px;
 }

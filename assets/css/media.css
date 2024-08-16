@@ -23,6 +23,9 @@
     .sub-banner {
         height: 500px;
     }
+    .hotel-img {
+        height: 300px;
+    }
 }
 
 
@@ -137,10 +140,10 @@
         transform: rotate(-45deg);
     }
     .hotel-img {
-        width: 30%;
+        width: 100%;
     }
     .hotel-text {
-        width: 70%;
+        width: 100%;
     }
 }
 
@@ -204,17 +207,25 @@
         padding: 30px 10px 0 10px;
     }
     .hotel-img {
-        width: 100%;
-        height: 300px;
+        width: 40%;
+        height: auto;
     }
     .hotel-wrap {
-        padding: 0px 0;
-        flex-direction: column;
-        border: 1px solid #ccc;
-        margin-bottom: 25px;
+        padding: 15px 0;
+        flex-direction: row;
+        border: none;
+        border-bottom: 1px solid #ccc;
+        margin-bottom: 0;
+    }
+    .vist-website a {
+        padding: 7px 10px;
+    }
+    .vist-website {
+        position: inherit;
     }
     .hotel-text {
-        width: 100%;
+        width: 60%;
+        padding: 15px 10px;
     }
     .sub-banner .banner-text h1 {
         font-size: 2.2rem;
@@ -272,6 +283,9 @@
     .slick-slide {
         padding: 0 5px;
     }
+    .hotel-main .col-md-6 {
+        margin: 8px 0;
+    }
 }
 
 @media(max-width:375px){
@@ -300,7 +314,7 @@
         font-size: 2.01rem;
     }
     .hotel-img {
-        height: 250px;
+        height: auto;
     }
     .top-text {
         padding: 15px;
